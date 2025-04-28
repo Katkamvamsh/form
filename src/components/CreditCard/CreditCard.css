@@ -1,0 +1,94 @@
+.main-container{
+     background-repeat: no-repeat;
+     display: flex;
+    flex-wrap: wrap;
+      
+}
+.each-card{
+    position: relative;
+}
+
+.number{
+ color: rgb(42, 100, 214);
+ font-size: 24px;
+}
+
+.name{
+    color: rgb(253, 253, 254);
+    font-family: "Roboto";
+    position: absolute;
+   top: 48%;
+   left: 15%;
+ 
+}
+.number{
+    position: absolute;
+   bottom: 20%;
+   left: 15%;
+   color: rgb(252, 252, 252);
+}
+.date{
+    position: absolute;
+    top: 59%;
+   right: 20%;
+    color: aliceblue;
+    font-size: 25px;
+}
+.pop-input{
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid blue;
+    width: 20vw;
+    font-size: 15px;
+}
+.send-button{
+    padding: 12px 25px;
+    border-radius: 25px;
+  border: 3px solid rgb(4, 0, 255);
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-size: 20px;
+}
+.cancel-button{
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: 3px solid rgb(4, 0, 255);
+    background-color: rgb(0, 0, 0);
+ 
+    color: white;
+    font-size: 20px;
+}
+.popup-buttons{
+    gap: 14px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.popup-box{
+    box-shadow: 2px 2px 12px 2px;
+    padding:  10px 40px 20px 40px;
+    z-index: 10;
+    background-color: aliceblue;
+    height: 35vh;
+  position: fixed;
+  margin-left: 35%;
+  border-radius: 13px;
+}
+.enter-email{
+    text-align: center;
+    font-size: 34px;
+    font-family: "Roboto";
+}
+.logout{
+    padding: 12px 22px;
+    border-radius: 10px;
+    border: 2px solid blue;
+    color: rgb(4, 6, 7);
+    font-size: 25px;
+    font-family: "Roboto";
+    background-color: red;
+    margin-left: 90vw;
+    margin-top: 30px;
+    cursor: pointer;
+}
